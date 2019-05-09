@@ -3,30 +3,25 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HomepageComponent } from './homepage.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { LaptopComponent } from './laptop/laptop.component';
-import { SmartphoneComponent } from './smartphone/smartphone.component';
 import { FooterComponent } from './footer/footer.component';
-import { LaptopItemComponent } from './laptop/laptop-item/laptop-item.component';
-import { SmartphoneItemComponent } from './smartphone/smartphone-item/smartphone-item.component';
+import { ContentComponent } from './content/content.component';
+import { ItemsComponent } from './content/items/items.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     HomepageComponent,
     CarouselComponent,
-    LaptopComponent,
-    SmartphoneComponent,
     FooterComponent,
-    LaptopItemComponent,
-    SmartphoneItemComponent
+    ContentComponent,
+    ItemsComponent
   ],
   exports: [
     HeaderComponent,
     HomepageComponent,
     CarouselComponent,
-    LaptopComponent,
-    SmartphoneComponent,
-    FooterComponent
+    FooterComponent,
+    ContentComponent
   ],
   imports: [
     CommonModule
