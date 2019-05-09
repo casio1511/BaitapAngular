@@ -6,6 +6,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { LaptopComponent } from './laptop/laptop.component';
 import { SmartphoneComponent } from './smartphone/smartphone.component';
 import { FooterComponent } from './footer/footer.component';
+import { LaptopItemComponent } from './laptop/laptop-item/laptop-item.component';
+import { SmartphoneItemComponent } from './smartphone/smartphone-item/smartphone-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './footer/footer.component';
     CarouselComponent,
     LaptopComponent,
     SmartphoneComponent,
-    FooterComponent
+    FooterComponent,
+    LaptopItemComponent,
+    SmartphoneItemComponent
   ],
   exports: [
     HeaderComponent,
